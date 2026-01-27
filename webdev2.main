@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lhk.css">
+</head>
+<body>
+    <ol>
+        <li>paneer</li>
+        <li>allo</li>
+        <li>tomato</li>
+        <li>potatto</li>
+    </ol>
+    <img src="tanuj.jpeg">
+    <a href="https://www.google.com/search?q=random+picker&oq=random+pic&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyDAgBEEUYORixAxiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCTgwMDFqMGoxNagCCLACAfEFR_Jzz9i6WvI&sourceid=chrome&ie=UTF-8">click here</a>
+    <ul>
+        <li>manish</li>
+        <li>asmit</li>
+        <li>keshav</li>
+        <li>gourav</li>
+    </ul>
+    <table border="1" cellpadding="10" cellspacing="10">
+        <tr>
+            <th>name</th>
+            <th>father name</th>
+            <th>mother name</th>
+            <th>village</th>
+            <th>board</th>
+            <th>school name</th>
+        </tr>
+        <tr>
+            <th>jonny broo</th>
+            <th>russia</th>
+            <th>american</th>
+            <th>africa</th>
+            <th>cbse</th>
+            <th>rnr public school</th>
+        </tr>
+    </table>
+    <form>
+        Enter Name -<input type="text" placeholder="Enter your name"><br>
+        Enter Email -<input type="Email" placeholder="Enter your email"><br>
+        Enter password -<input type="password" placeholder="enter your password">
+        <br>
+        <input text="datetime-local"> 
+        <input text="checkbox">Male
+        <input type="checkbox">Female<br>
+        <input type="checkbox">Others<br>
+        <input type="radio">i agree<br>
+        <input type="radio">i disagree<br>
+        <input type="radio">others<br>
+        <input type="color">
+        <input type="Submit">
+        <video src="./tanuj2.jpeg" width="200px" controls></video>
+    </form>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Square Box</title>
+
+    <style>
+        .square-box {
+            width: 200px;           /* Width of the square */
+            height: 200px;          /* Height of the square */
+            background-color: skyblue;
+            border: 3px solid black;
+            margin: 50px auto;      /* Center the box */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="square-box">manish</div>
+    <div class="square-box">asmit</div>
+    <div class="square-box">dikshit</div>
+
+</body>
+</html>
+
