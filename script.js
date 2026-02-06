@@ -41,3 +41,21 @@ setTimeout(()=>{
 },1000);
 },1500);
 },2000);
+onsole.log("Before Promise");
+const p=new Promise((resolve,reject)=>{
+    let done=true;
+    setTimeout(()=>{
+        if(done){
+            resolve("work has been completed")
+        }else{
+            reject("work has not been completed")
+        }
+        },5000)
+    });
+p.then((data)=>{
+    console.log(data.name)
+    }).catch((err)=>{
+        console.log(err)
+    }).finally(()=>{
+        console.log("finally block");
+    });
