@@ -307,3 +307,10 @@ function add(a){
     }
 }
 console.log(add(2)(3)(4))
+
+
+const id=setInterval(()=>{
+    if (num===10)clearInterval(id)
+    console.log(num)
+    num+=1
+},1000);    
