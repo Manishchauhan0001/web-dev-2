@@ -314,3 +314,17 @@ const id=setInterval(()=>{
     console.log(num)
     num+=1
 },1000);    
+
+
+
+function *gen3(){
+    let i=1
+    while(true){
+        yield i
+        i++
+    }
+}
+const g=gen3()
+console.log(g.next())
+console.log(g.next())
+console.log(g.next())
